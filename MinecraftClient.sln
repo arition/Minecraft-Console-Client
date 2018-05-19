@@ -1,20 +1,41 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinecraftClient", "MinecraftClient\MinecraftClient.csproj", "{1E2FACE4-F5CA-4323-9641-740C6A551770}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinecraftClientLib", "MinecraftClientLib\MinecraftClientLib.csproj", "{0BD9C1EF-317F-4BC5-98B9-33EA9425A2A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{BB8C1FCD-D6BE-44EE-BD74-50BA75C72B33}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
 		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1E2FACE4-F5CA-4323-9641-740C6A551770}.Debug|x86.ActiveCfg = Debug|x86
-		{1E2FACE4-F5CA-4323-9641-740C6A551770}.Debug|x86.Build.0 = Debug|x86
-		{1E2FACE4-F5CA-4323-9641-740C6A551770}.Release|x86.ActiveCfg = Release|x86
-		{1E2FACE4-F5CA-4323-9641-740C6A551770}.Release|x86.Build.0 = Release|x86
+		{0BD9C1EF-317F-4BC5-98B9-33EA9425A2A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BD9C1EF-317F-4BC5-98B9-33EA9425A2A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BD9C1EF-317F-4BC5-98B9-33EA9425A2A1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0BD9C1EF-317F-4BC5-98B9-33EA9425A2A1}.Debug|x86.Build.0 = Debug|Any CPU
+		{0BD9C1EF-317F-4BC5-98B9-33EA9425A2A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BD9C1EF-317F-4BC5-98B9-33EA9425A2A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BD9C1EF-317F-4BC5-98B9-33EA9425A2A1}.Release|x86.ActiveCfg = Release|Any CPU
+		{0BD9C1EF-317F-4BC5-98B9-33EA9425A2A1}.Release|x86.Build.0 = Release|Any CPU
+		{BB8C1FCD-D6BE-44EE-BD74-50BA75C72B33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB8C1FCD-D6BE-44EE-BD74-50BA75C72B33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB8C1FCD-D6BE-44EE-BD74-50BA75C72B33}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BB8C1FCD-D6BE-44EE-BD74-50BA75C72B33}.Debug|x86.Build.0 = Debug|Any CPU
+		{BB8C1FCD-D6BE-44EE-BD74-50BA75C72B33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB8C1FCD-D6BE-44EE-BD74-50BA75C72B33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB8C1FCD-D6BE-44EE-BD74-50BA75C72B33}.Release|x86.ActiveCfg = Release|Any CPU
+		{BB8C1FCD-D6BE-44EE-BD74-50BA75C72B33}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E41F5BC8-C996-4509-947F-75734EB1CF40}
 	EndGlobalSection
 EndGlobal
